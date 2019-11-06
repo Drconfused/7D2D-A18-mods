@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsA18Item_modRunSpeed" />
+		<Description value="Item modifier that makes armor boots look like and act like the running shoes." />
+		<Author value="Drconfused" />
+		<Version value="0.02" />
+		<Website value="https://www.nexusmods.com/7daystodie/mods/536" />
+	</ModInfo>
+</xml>

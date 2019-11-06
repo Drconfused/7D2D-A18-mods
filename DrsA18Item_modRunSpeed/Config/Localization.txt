@@ -1,0 +1,17 @@
+Key,Source,Context,Changes,English
+modArmorRunningShoes,item_modifiers,mod,New,Running Shoes Mod
+modArmorRunningShoesDesc,item_modifiers,mod,New,"This running shoe modification makes any armor boots look like running shoes, 10% speed increase and offers insulation against the elements."
+modArmorSportJacket,item_modifiers,mod,New,Jacket Mod of Speed
+modArmorSportJacketDesc,item_modifiers,mod,New,"Who would think you're made of steel when all they see is a sports jacket! Eat my Dust! Run 10% faster and offers insulation against the elements."
+modArmorRunningShoes_noAltar,item_modifiers,mod,New,Running Shoes Mod NA
+modArmorRunningShoes_noAltarDesc,item_modifiers,mod,New,"NO ALTAR LOOK VERSION If you can run faster than your friends you will be safe from the zombies! 10% speed increase."
+modArmorSportJacket_noAltar,item_modifiers,mod,New,Jacket Mod of Speed NA
+modArmorSportJacket_noAltarDesc,item_modifiers,mod,New,"NO ALTAR LOOK VERSION This new coating mod reduces your wind friction and just by reason of its awesomeness you are faster! Eat my Dust! Run 10% faster."
+modArmorRunningShoes2,item_modifiers,mod,New,Running Shoes Mod 2
+modArmorRunningShoes2Desc,item_modifiers,mod,New,"This running shoe modification makes any armor boots look like running shoes, run and walk 15% faster and offers insulation against the elements."
+modArmorSportJacket2,item_modifiers,mod,New,Jacket Mod of Speed 2
+modArmorSportJacket2Desc,item_modifiers,mod,New,"Who would think you're made of steel when all they see is a sports jacket! Eat my Dust! Run and walk 15% faster and offers insulation against the elements."
+modArmorRunningShoes_noAltar2,item_modifiers,mod,New,Running Shoes Mod NA 2
+modArmorRunningShoes_noAltar2Desc,item_modifiers,mod,New,"NO ALTAR LOOK VERSION If you can run faster than your friends you will be safe from the zombies! Run and walk 15% faster."
+modArmorSportJacket_noAltar2,item_modifiers,mod,New,Jacket Mod of Speed NA 2
+modArmorSportJacket_noAltar2Desc,item_modifiers,mod,New,"NO ALTAR LOOK VERSION This new coating mod reduces your wind friction and just by reason of its awesomeness you are faster! Eat my Dust! Run and walk 15% faster."

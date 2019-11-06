@@ -1,0 +1,61 @@
+<DrsA18Item_modRunSpeed>
+<append xpath="/recipes">
+	<recipe name="modArmorRunningShoes" counts="1" craft_area="workbench">
+		<ingredient name="apparelRunningShoesHP" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceDuctTape" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+	<recipe name="modArmorRunningShoes_noAltar" counts="1" craft_area="workbench">
+		<ingredient name="apparelRunningShoesHP" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceDuctTape" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+	<recipe name="modArmorRunningShoes2" counts="1" craft_area="workbench">
+		<ingredient name="modArmorRunningShoes" count="1"/>
+		<ingredient name="resourceCloth" count="15"/>
+		<ingredient name="resourceScrapPolymers" count="8"/>
+		<ingredient name="resourceSilverNugget" count="2"/>
+		<ingredient name="resourceSewingKit" count="4"/>
+	</recipe>
+	<recipe name="modArmorRunningShoes_noAltar2" counts="1" craft_area="workbench">
+		<ingredient name="modArmorRunningShoes_noAltar" count="1"/>
+		<ingredient name="resourceCloth" count="15"/>
+		<ingredient name="resourceScrapPolymers" count="8"/>
+		<ingredient name="resourceSilverNugget" count="2"/>
+		<ingredient name="resourceSewingKit" count="4"/>
+	</recipe>
+
+	<recipe name="modArmorSportJacket" counts="1" craft_area="workbench">
+		<ingredient name="apparelCoatJacketLetterZU" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceDuctTape" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+	<recipe name="modArmorSportJacket_noAltar" counts="1" craft_area="workbench">
+		<ingredient name="apparelCoatJacketLetterZU" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceDuctTape" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+	<recipe name="modArmorSportJacket2" counts="1" craft_area="workbench">
+		<ingredient name="modArmorSportJacket" count="1"/>
+		<ingredient name="resourceCloth" count="15"/>
+		<ingredient name="resourceScrapPolymers" count="8"/>
+		<ingredient name="resourceSilverNugget" count="2"/>
+		<ingredient name="resourceSewingKit" count="4"/>
+	</recipe>
+	<recipe name="modArmorSportJacket_noAltar2" counts="1" craft_area="workbench">
+		<ingredient name="modArmorSportJacket_noAltar" count="1"/>
+		<ingredient name="resourceCloth" count="15"/>
+		<ingredient name="resourceScrapPolymers" count="8"/>
+		<ingredient name="resourceSilverNugget" count="2"/>
+		<ingredient name="resourceSewingKit" count="4"/>
+	</recipe>
+</append>
+</DrsA18Item_modRunSpeed>

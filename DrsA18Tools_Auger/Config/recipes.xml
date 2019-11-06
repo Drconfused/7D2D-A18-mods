@@ -1,0 +1,15 @@
+<DrsA18Tools_Auger>
+<!-- mod Quicker Fixer Upper -->
+<append xpath="/recipes">
+	<recipe name="Drs_Auger" counts="1" craft_area="workbench">
+		<ingredient name="meleeToolAuger" count="1"/>
+		<ingredient name="resourceMechanicalParts" count="100"/>
+		<ingredient name="resourceForgedSteel" count="100"/>
+		<ingredient name="meleeToolChainsawParts" count="500"/>
+	</recipe>
+	<recipe name="meleeToolAuger" counts="1" craft_area="workbench">
+		<ingredient name="meleeToolAuger" count="1"/>
+		<ingredient name="meleeToolChainsawParts" count="1"/>
+	</recipe>
+</append>
+</DrsA18Tools_Auger>

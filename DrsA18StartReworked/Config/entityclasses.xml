@@ -1,0 +1,7 @@
+<DrsA18StartReworked>
+<!-- ~~~~~~~~~~~~~~~~~~~~~START GAME ITEMS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival' and @value='drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock,noteDuke01']/@value">meleeToolAuger,gunPistol,DrsStarterClothes,DrsStarterKit,DrsStarterMaterials</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP' and @value='drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock']/@value">meleeToolAuger,gunPistol,bedroll,DrsStarterKit,keystoneBlock</set>
+	<set xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP' and @value='drinkJarBoiledWater,foodCanChili,medicalFirstAidBandage,meleeToolTorch,keystoneBlock']/@value">meleeToolAuger,gunPistol,bedroll,DrsStarterKit,keystoneBlock</set>
+</DrsA18StartReworked>

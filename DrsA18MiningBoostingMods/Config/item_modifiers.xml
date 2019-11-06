@@ -1,0 +1,102 @@
+<DrsA18MiningBoostingMods>
+<append xpath="/item_modifiers">
+	<item_modifier name="modGlovesOfMiningExp1" installable_tags="hands" blocked_tags="clothing" modifier_tags="rare" type="attachment">
+		<property name="CustomIcon" value="armorLeatherGloves"/>
+		<property name="CustomIconTint" value="86,255,109"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="armorLight"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="armor_leather_gloves"/>
+			<property name="UMA.Overlay0" value="armor_leather_gloves"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="miningTool"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" level="1" value=".05" tags="Harvesting"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="modGlovesOfMiningExp2" installable_tags="hands" blocked_tags="clothing" modifier_tags="rare" type="attachment">
+		<property name="CustomIcon" value="armorLeatherGloves"/>
+		<property name="CustomIconTint" value="0,0,255"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="armorLight"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="armor_leather_gloves"/>
+			<property name="UMA.Overlay0" value="armor_leather_gloves"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="miningTool"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" level="1" value=".1" tags="Harvesting"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="modGlovesOfMiningExp3" installable_tags="hands" blocked_tags="clothing" modifier_tags="rare" type="attachment">
+		<property name="CustomIcon" value="armorLeatherGloves"/>
+		<property name="CustomIconTint" value="128,0,128"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="armorLight"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="armor_leather_gloves"/>
+			<property name="UMA.Overlay0" value="armor_leather_gloves"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="miningTool"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" level="1" value=".2" tags="Harvesting"/>
+		</effect_group>
+	</item_modifier>
+	
+	
+	<item_modifier name="modHelmOfMiningExp1" installable_tags="head" blocked_tags="clothing" modifier_tags="rare" type="attachment">
+		<property name="CustomIcon" value="armorMiningHelmet"/>
+		<property name="CustomIconTint" value="86,255,109"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="armorLight"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_mining_helmet"/>
+			<property name="UMA.Overlay0" value="gear_mining_helmet"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="miningTool"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" level="1" value=".05" tags="Harvesting"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="modHelmOfMiningExp2" installable_tags="head" blocked_tags="clothing" modifier_tags="rare" type="attachment">
+		<property name="CustomIcon" value="armorMiningHelmet"/>
+		<property name="CustomIconTint" value="0,0,255"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="armorLight"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_mining_helmet"/>
+			<property name="UMA.Overlay0" value="gear_mining_helmet"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="miningTool"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" level="1" value=".1" tags="Harvesting"/>
+		</effect_group>
+	</item_modifier>
+	<item_modifier name="modHelmOfMiningExp3" installable_tags="head" blocked_tags="clothing" modifier_tags="rare" type="attachment">
+		<property name="CustomIcon" value="armorMiningHelmet"/>
+		<property name="CustomIconTint" value="128,0,128"/>
+		<property name="Stacknumber" value="1"/> <property name="Group" value="Mods"/>
+		<property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+		<property name="EconomicValue" value="440"/>
+		<property name="DisplayType" value="armorLight"/>
+		<item_property_overrides name="*">
+			<property name="UMA.Mesh" value="gear_mining_helmet"/>
+			<property name="UMA.Overlay0" value="gear_mining_helmet"/>
+		</item_property_overrides>
+		<effect_group tiered="false">
+			<requirement name="HoldingItemHasTags" tags="miningTool"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" level="1" value=".2" tags="Harvesting"/>
+		</effect_group>
+	</item_modifier>
+</append>
+</DrsA18MiningBoostingMods>

@@ -1,0 +1,59 @@
+<DrsA18StartReworked>
+
+<!-- Remove existing start quest line -->
+<remove xpath="/quests/quest[@id='quest_whiteRiverCitizen1']"/>
+<remove xpath="/quests/quest[@id='quest_BasicSurvival1']"/>
+<remove xpath="/quests/quest[@id='quest_BasicSurvival2']"/>
+
+<!-- Revamp the start quests -->
+<append xpath="/quests">
+	<quest id="quest_BasicSurvival1">
+			<property name="group_name" value="quest_BasicSurvival" />
+			<property name="name" value="Getting started" />
+			<property name="subtitle" value="Lets get this part out of the way." />
+			<property name="description" value="To many things to do, need to find a trader so lets get on that right away!" />
+			<property name="icon" value="ui_game_symbol_map_trader" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			
+			<reward type="Quest" id="quest_BasicSurvival2" />
+			<reward type="Quest" id="100_Zombies_Killed" />
+			<reward type="SkillPoints" value="4"/>
+			<reward type="Item" id="burningBarrelPlayer" value="1" />
+			<reward type="Item" id="DrsStarterMaterials" value="1" />
+			<reward type="Item" id="casinoCoin" value="1000" />
+			<reward type="Item" id="meleeToolWrench" value="1" />
+			<reward type="Item" id="vehicleMotorcyclePlaceable" value="1" />
+	</quest>
+	<quest id="quest_BasicSurvival2">
+			<property name="group_name_key" value="quest_WhiteRiverCitizen" />
+			<property name="name_key" value="quest_WhiteRiverCitizen1" />
+			<property name="subtitle_key" value="quest_WhiteRiverCitizen1_subtitle" />
+			<property name="description_key" value="quest_WhiteRiverCitizen1_description" />
+			<property name="icon" value="ui_game_symbol_map_trader" />
+			<property name="category_key" value="quest" />
+			<property name="difficulty" value="medium" />
+			<property name="shareable" value="false" />
+			
+			<action type="ShowTip" value="quest_WhiteRiverCitizen1_description">
+				<property name="delay" value="3" />
+			</action>
+			<objective type="Goto" id="trader" value="5" phase="1" />
+			
+			<objective type="InteractWithNPC">
+				<property name="phase" value="2" />
+			</objective>
+			
+			<reward type="Exp" value="1000" />
+			<reward type="SkillPoints" value="4" chainreward="true" />
+			<reward type="Item" id="meleeToolClawHammer" value="1" />
+			<reward type="Item" id="meleeToolWrench" value="1" />
+			<reward type="Item" id="meleeToolAuger" value="1" />
+			<reward type="Item" id="meleeToolChainsaw" value="1" />
+			<reward type="Item" id="ammoGasCan" value="1000" />
+			<reward type="Item" id="Drs_spawnTrader" value="1" />
+	</quest>
+</append>
+
+</DrsA18StartReworked>

@@ -1,0 +1,3 @@
+Key,Source,Context,Changes,English
+Drs_spawnTrader,blocks,Block,New,Drs Trader Spawn Block
+Drs_spawnTraderDesc,blocks,Block,New,"Here is a Trader to place at your base, keep them safe and utilize them for your trades. lets bebuild this world!"

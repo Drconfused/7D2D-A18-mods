@@ -1,0 +1,97 @@
+<DrsQuestsZombieKiller>
+<!-- ZOMBIE KILLER -->
+<append xpath="/items" >
+<!-- Milestone quests paper if adding to existing game -->	
+	<item name="Paper_Milestone_Zombie_Kill_100">
+		<property name="Extends" value="questMaster" />
+		<property name="Description" value="Zombie Kill Milestone" />
+		<property class="Action0">
+			<property name="QuestGiven" value="100_Zombies_Killed" />
+		</property>
+	</item>
+
+<!-- QuestChit Items -->
+	<item name="Quest_Chit">
+		<property name="HoldType" value="45"/>
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="CustomIcon" value="Drs_QuestChit"/>
+		<property name="Material" value="MresourcePaper"/>
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="Stacknumber" value="30000"/>
+		<property name="EconomicValue" value="1"/>
+		<property name="EconomicBundleSize" value="1"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Resources"/>
+	</item>
+	<item name="QuestChit1">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="Equivalent to 100 zombie kills" />
+		<property name="CustomIcon" value="Chit1"/>
+	<property name="Stacknumber" value="30000"/>
+	<property name="SellableToTrader" value="false"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="Quest_Chit1" />
+		</property>
+	</item>
+	<item name="QuestChit5">
+		<property name="Extends" value="QuestChit1" />
+		<property name="Description" value="Equivalent to 500 zombie kills" />
+		<property name="CustomIcon" value="Chit5"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="Quest_Chit5" />
+		</property>
+	</item>
+	<item name="QuestChit10">
+		<property name="Extends" value="QuestChit1" />
+		<property name="Description" value="Equivalent to 1000 zombie kills" />
+		<property name="CustomIcon" value="Chit10"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="Quest_Chit10" />
+		</property>
+	</item>
+	<item name="QuestChit50">
+		<property name="Extends" value="QuestChit1" />
+		<property name="Description" value="Equivalent to 5000 zombie kills" />
+		<property name="CustomIcon" value="Chit50"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="Quest_Chit50" />
+		</property>
+	</item>
+	<item name="QuestChit100">
+		<property name="Extends" value="QuestChit1" />
+		<property name="Description" value="Equivalent to 10000 zombie kills" />
+		<property name="CustomIcon" value="Chit100"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="Quest_Chit100" />
+		</property>
+	</item>
+	<item name="QuestChit500">
+		<property name="Extends" value="QuestChit1" />
+		<property name="Description" value="Equivalent to 50000 zombie kills" />
+		<property name="CustomIcon" value="Chit500"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="Quest_Chit500" />
+		</property>
+	</item>
+	<item name="QuestChit1000">
+		<property name="Extends" value="QuestChit1" />
+		<property name="Description" value="Equivalent to 100000 zombie kills" />
+		<property name="CustomIcon" value="Chit1000"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="Quest_Chit1000" />
+		</property>
+	</item>
+	<item name="QuestChit5000">
+		<property name="Extends" value="QuestChit1" />
+		<property name="Description" value="Equivalent to 500000 zombie kills" />
+		<property name="CustomIcon" value="Chit5000"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="Quest_Chit5000" />
+		</property>
+	</item>	
+</append>
+
+</DrsQuestsZombieKiller>

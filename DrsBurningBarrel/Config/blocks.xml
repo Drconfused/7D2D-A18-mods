@@ -1,0 +1,21 @@
+<DrsA18BurningBarrel>
+
+<!-- BURNING BARREL -->
+<!--<append xpath="/blocks/block[@name='burningBarrelPlayer']">
+		<property name="BuffsWhenWalkedOn" value="buffBurningElement"/>
+	</append>
+	<append xpath="/blocks/block[@name='burningBarrel']">
+		<property name="CanPickup" value="true" param1="burningBarrelPlayer"/>
+	</append>
+-->
+	<set xpath="/blocks/block[@name='burningBarrel']">
+		<property name="Extends" value="burningBarrelPlayer"/>
+	</set>
+	<append xpath="/blocks/block[@name='burningBarrelPlayer']">
+		<property name="BuffsWhenWalkedOn" value="buffBurningElement"/>
+	</append>
+	<!-- /property[@name='Extends']/@value">burningBarrelPlayer</set> -->
+	<append xpath="/blocks/block[@name='burningBarrel']">
+		<property name="CanPickup" value="true" param1="burningBarrelPlayer"/>
+	</append>
+</DrsA18BurningBarrel>

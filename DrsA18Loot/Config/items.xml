@@ -1,0 +1,253 @@
+<DrsA18Loot>
+<append xpath="/items" >
+<!--	Trader Reward Loot	-->
+<item name="lootBoxTraderReward">
+	<property name="Extends" value="questMaster"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="CustomIcon" value="Drs_Construction_UnCrate"/>
+	<property name="CustomIconTint" value="ffb300"/>
+	<property name="Stacknumber" value="100"/>
+	<property name="SellableToTrader" value="false"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="Drs_Reward_Loot"/>
+	</property>
+</item>
+<!--	Construction Grade A	-->
+<item name="lootBoxConstructionA">
+	<property name="Extends" value="lootBoxTraderReward"/>
+	<property name="CustomIcon" value="Drs_ConstructorLoot_Uncrate"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_BaseConstructor_Box1"/>
+	</property>
+</item>
+<!--	Construction Grade B	-->
+<item name="lootBoxConstructionB">
+	<property name="Extends" value="lootBoxConstructionA"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_BaseConstructor_Box2"/>
+	</property>
+</item>
+<!--	Construction Grade C	-->
+<item name="lootBoxConstructionC">
+	<property name="Extends" value="lootBoxConstructionA"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_BaseConstructor_Box3"/>
+	</property>
+</item>
+<!--	Ammo Grade A	-->
+<item name="lootBoxAmmoA">
+	<property name="Extends" value="lootBoxTraderReward"/>
+	<property name="CustomIcon" value="Drs_CombatLoot_Uncrate"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_Killer_Box1"/>
+	</property>
+</item>
+<!--	Ammo Grade B	-->
+<item name="lootBoxAmmoB">
+	<property name="Extends" value="lootBoxAmmoA"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_Killer_Box2"/>
+	</property>
+</item>
+<!--	Ammo Grade C	-->
+<item name="lootBoxAmmoC">
+	<property name="Extends" value="lootBoxAmmoA"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_Killer_Box3"/>
+	</property>
+</item>
+<!--	Medicine Loot	-->
+<item name="lootBoxMedicine">
+	<property name="Extends" value="lootBoxTraderReward"/>
+	<property name="CustomIcon" value="Drs_FirstAid_Uncrate"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_FirstAid_Kit"/>
+	</property>
+</item>
+<item name="lootBoxBlood">
+	<property name="Extends" value="lootBoxTraderReward"/>
+	<property name="CustomIcon" value="Drs_BloodCase_Uncrate"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_BloodCase"/>
+	</property>
+</item>
+<!--	Food Loot	-->
+<item name="lootBoxFood">
+	<property name="Extends" value="lootBoxTraderReward"/>
+	<property name="CustomIcon" value="Drs_Construction_Crate"/>
+	<property class="Action0">
+		<property name="QuestGiven" value="loot_Food_Box1"/>
+	</property>
+</item>
+<!--	Skill Book Loot	-->
+<!-- 
+<append xpath="/items" >
+	<item name="SkillBook_Advanced_Engineering">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkAdvancedEngineering"/>
+		</property>
+	</item>	
+	<item name="SkillBook_Better_Barter">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkBetterBarter"/>
+		</property>
+	</item>
+	<item name="SkillBook_Daring_Adventurer">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkDaringAdventurer"/>
+		</property>
+	</item>
+	<item name="SkillBook_Grease_Monkey">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkGreaseMonkey"/>
+		</property>
+	</item>
+	<item name="SkillBook_Hammer_Forge">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkHammerForge"/>
+		</property>	
+	</item>	
+	<item name="SkillBook_Loving_Off_The_Land">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkLivingOffTheLand"/>
+		</property>
+	</item>
+	<item name="SkillBook_Lucky_Looter">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkLuckyLooter"/>
+		</property>
+	</item>
+	<item name="SkillBook_Master_Chef">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkMasterChef"/>
+		</property>
+	</item>
+	<item name="SkillBook_Miner_69r">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkMiner69r"/>
+		</property>
+	</item>
+	<item name="SkillBook_Mother_Lode">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkMotherLode"/>
+		</property>
+	</item>
+	<item name="SkillBook_Pack_Mule">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkPackMule"/>
+		</property>
+	</item>	
+	<item name="SkillBook_Physician">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkPhysician"/>
+		</property>
+	</item>
+	<item name="SkillBook_Salvage_Operation">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkSalvageOperations"/>
+		</property>
+	</item>	
+	<item name="SkillBook_Sexual_Trex">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkSexualTrex"/>
+		</property>
+	</item>
+	<item name="SkillBook_Yeah_Science">
+		<property name="Extends" value="unlockBookMaster"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="Drs_Book1"/>
+		<property name="EconomicValue" value="500"/>
+		<property name="Description" value="shit just got real"/>
+		<property class="Action0">
+			<property name="Class" value="GainSkill"/>
+			<property name="Skills_to_gain" value="perkYeahScience"/>
+		</property>
+	</item>
+</append>
+-->
+</append>
+</DrsA18Loot>

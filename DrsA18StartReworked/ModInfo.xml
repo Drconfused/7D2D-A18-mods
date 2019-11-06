@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsA18StartReworked" />
+		<Description value="Changes the start to skip the survival series and get right to searching for the Trader, new start items and rewards for finding Trader." />
+		<Author value="Drconfused" />
+		<Version value="0.01" />
+		<Website value="" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,13 @@
+Key,Source,Context,Changes,English
+modGlovesOfMiningExp1,item_modifiers,mod,New,Gloves of Mining Mod
+modGlovesOfMiningExp1Desc,item_modifiers,mod,New,"Outfitting yourself with the best in mining handwear, grip your tools like never before, these make you more present in your experience! Gain 5% experience when using mining tools."
+modGlovesOfMiningExp2,item_modifiers,mod,New,Gloves of Mining Mod
+modGlovesOfMiningExp2Desc,item_modifiers,mod,New,"Outfitting yourself with the best in mining handwear, grip your tools like never before, these make you more present in your experience! Gain 10% experience when using mining tools."
+modGlovesOfMiningExp3,item_modifiers,mod,New,Gloves of Mining Mod
+modGlovesOfMiningExp3Desc,item_modifiers,mod,New,"Outfitting yourself with the best in mining handwear, grip your tools like never before, these make you more present in your experience! Gain 20% experience when using mining tools."
+modHelmOfMiningExp1,item_modifiers,mod,New,Mining Helm of Mining Mod
+modHelmOfMiningExp1Desc,item_modifiers,mod,New,"This helmet now fits so snug and well that you have no choice but to learn more as you mine! 5% experience when using minding tools."
+modHelmOfMiningExp2,item_modifiers,mod,New,Mining Helm of Mining Mod
+modHelmOfMiningExp2Desc,item_modifiers,mod,New,"This helmet now fits so snug and well that you have no choice but to learn more as you mine! 10% experience when using minding tools."
+modHelmOfMiningExp3,item_modifiers,mod,New,Mining Helm of Mining Mod
+modHelmOfMiningExp3Desc,item_modifiers,mod,New,"This helmet now fits so snug and well that you have no choice but to learn more as you mine! 20% experience when using minding tools."

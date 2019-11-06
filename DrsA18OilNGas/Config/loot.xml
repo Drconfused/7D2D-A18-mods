@@ -1,0 +1,14 @@
+<DrsA18OilNGas>
+
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~OIL EXTRACTOR~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<append xpath="/lootcontainers" >
+	<lootcontainer id="225" count="1,50" size="8,9" sound_open="forge_open" sound_close="forge_close" destroy_on_close="true" loot_quality_template="qualBaseTemplate" >
+		<item name="resourceOilShale" count="1,50" prob="0.4"/>
+		<item name="ammoGasCan" count="1,100" prob="0.6"/>
+		<item name="resourceOil" count="0,3" prob="0.2"/>
+		<item name="terrOreOilDeposit" count="0,25" prob="0.2"/>
+		<item name="terrAsphalt" count="0,25" prob="0.2"/>
+	</lootcontainer>
+</append>
+
+</DrsA18OilNGas>

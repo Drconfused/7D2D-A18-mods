@@ -1,0 +1,32 @@
+<Drconfused_MotorTools_Modifiers>
+<!-- This need to override SoundDataNode name="Auger_Fire_Start" when the mod is equipped -->
+<append xpath="/Sounds">
+
+	<SoundDataNode name="Auger_s_Fire"> <AudioSource name="Sounds/Weapons/Motorized/Auger/AugerAudioSource"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="4" range="5" volume="30" time="2" heat_map_strength="0.001" heat_map_time="10"/>
+		<Sequence/>
+		<AudioClip ClipName="Sounds/Weapons/Motorized/Auger/Auger_Fire_Start"/>
+		<AudioClip ClipName="Sounds/Weapons/Motorized/Auger/auger_fire_lp" Loop="true"/>
+		<AudioClip ClipName="Sounds/Weapons/Motorized/Auger/auger_fire_end"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="1"/> 
+		<NoiseScale value="1"/> 
+		<MaxVoices value="3"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="Chainsaw_s_Fire"> <AudioSource name="Sounds/Weapons/Motorized/Auger/AugerAudioSource"/> <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+		<Noise ID="4" range="5" volume="30" time="2" heat_map_strength="0.001" heat_map_time="10"/>
+		<Sequence/>
+		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_start"/>
+		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_lp" Loop="true"/>
+		<AudioClip ClipName="Sounds/Weapons/Motorized/Chainsaw/chainsaw_fire_end"/>
+		<LocalCrouchVolumeScale value="0.5"/> 
+		<CrouchNoiseScale value="1"/> 
+		<NoiseScale value="1"/> 
+		<MaxVoices value="3"/> 
+		<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+</append>
+</Drconfused_MotorTools_Modifiers>

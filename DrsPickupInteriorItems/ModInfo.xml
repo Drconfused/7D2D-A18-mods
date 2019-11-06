@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsPickupInteriorItems" />
+		<Description value="Items in interiors that should have the ability to pickup." />
+		<Author value="Drconfused" />
+		<Version value="0.02" />
+		<Website value="https://www.nexusmods.com/7daystodie/mods/520/" />
+	</ModInfo>
+</xml>

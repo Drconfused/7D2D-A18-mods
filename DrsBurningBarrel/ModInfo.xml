@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsA18BurningBarrel" />
+		<Description value="Makes the burning barrel able to be picked up and adds a buff when walked on." />
+		<Author value="Drconfused" />
+		<Version value="0.01" />
+		<Website value="" />
+	</ModInfo>
+</xml>

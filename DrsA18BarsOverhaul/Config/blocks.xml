@@ -1,0 +1,247 @@
+<DrsA18BarsOverhaul>
+
+<!--	Wood	-->
+	<!--	Wood upgrade variable	-->
+	<set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">woodBarsCentered_Armoured</set>
+	<set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='Item']/@value">resourceScrapIron</set>
+	<set xpath="/blocks/block[@name='woodBarsCentered']/property[@class='UpgradeBlock']/property[@name='ItemCount']/@value">15</set>
+	<set xpath="/blocks/block[@name='woodBars']/property[@class='UpgradeBlock']/property[@name='ToBlock']/@value">woodBars_Armoured</set>
+
+	<!--	Wood Armoured	-->
+<append xpath="/blocks">
+<block name="woodBarsCentered_Armoured">
+	<property name="Extends" value="woodNoUpgradeMaster"/>
+	<property name="Texture" value="379"/>
+	<property name="MaxDamage" value="150"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="iron_bars_centered"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExcludeAndStop" value="true"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property class="RepairItems"> <property name="resourceWood" value="4"/> </property>
+	<property name="DescriptionKey" value="woodBarsDesc"/>
+	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0061"/> <!-- SortDoors -->
+	<property name="Group" value="Building,advBuilding"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="ironBarsCentered"/>
+		<property name="Item" value="resourceForgedIron"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="DowngradeBlock" value="woodBarsCentered"/>
+</block>
+<block name="woodBars_Armoured">
+	<property name="Extends" value="woodBarsCentered_Armoured"/>
+	<property name="Model" value="iron_bars"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortDoors -->
+	<property class="UpgradeBlock"> 
+		<property name="ToBlock" value="ironBars"/>
+	</property>
+	<property name="DowngradeBlock" value="woodBars"/>
+</block>
+</append>
+
+	<!--	Iron upgrade variable	-->
+<append xpath="/blocks/block[@name='ironBarsCentered']">
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="ironBarsCentered_Armoured"/>
+			<property name="Item" value="resourceForgedIron"/>
+			<property name="ItemCount" value="10"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+	</append>
+<append xpath="/blocks/block[@name='ironBars']">
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="ironBars_Armoured"/>
+	</property>
+</append>	
+<!--	Iron Armoured through Stainless	-->
+<append xpath="/blocks">
+	<!--	Iron Armoured	-->
+<block name="ironBarsCentered_Armoured">
+	<property name="CustomIcon" value="ironBars"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Mmetal_hard"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="iron_bars_centered"/>
+	<property name="Texture" value="352"/><!--	rScrapIronMaster	-->
+	<property name="MaxDamage" value="1250"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExcludeAndStop" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/> 
+	</property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steelBarsCentered"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="DowngradeBlock" value="ironBarsCentered"/>
+	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
+	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0061"/> <!-- SortDoors -->
+</block>
+<block name="ironBars_Armoured">
+	<property name="Extends" value="ironBarsCentered_Armoured"/>
+	<property name="Model" value="iron_bars"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steelBars"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="10"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="DowngradeBlock" value="ironBars"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortDoors -->
+</block>	
+<!--	Steel	-->
+	<!--	Steel Bars steelBarsCentered	-->
+<block name="steelBarsCentered">
+	<property name="CustomIcon" value="ironBars"/>
+	<property name="CustomIconTint" value="696B6F"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="iron_bars_centered"/>
+	<property name="Texture" value="356"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExcludeAndStop" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="10"/> 
+	</property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steelBarsCentered_Armoured"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
+	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0061"/> <!-- SortDoors -->
+</block>
+<block name="steelBars">
+	<property name="Extends" value="steelBarsCentered"/>
+	<property name="Model" value="iron_bars"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="steelBars_Armoured"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="20"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="SortOrder2" value="0060"/> <!-- SortDoors -->
+</block>
+	<!--	Steel Armored	-->
+<block name="steelBarsCentered_Armoured">
+	<property name="CustomIcon" value="ironBars"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="Msteel"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="iron_bars_centered"/>
+	<property name="Texture" value="356"/><!--	rScrapIronMaster	-->
+	<property name="MaxDamage" value="3500"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExcludeAndStop" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="10"/> 
+	</property>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="stainlessSteelBarsCentered"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="40"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="DowngradeBlock" value="steelBarsCentered"/>
+	<drop event="Harvest" name="resourceScrapIron" count="32" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
+	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0061"/> <!-- SortDoors -->
+</block>
+<block name="steelBars_Armoured">
+	<property name="Extends" value="steelBarsCentered_Armoured"/>
+	<property name="Model" value="iron_bars"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property class="UpgradeBlock">
+		<property name="ToBlock" value="stainlessSteelBars"/>
+		<property name="Item" value="resourceForgedSteel"/>
+		<property name="ItemCount" value="40"/>
+		<property name="UpgradeHitCount" value="4"/>
+	</property>
+	<property name="DowngradeBlock" value="steelBars"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortDoors -->
+</block>
+
+<!--	Stainless Bars	-->
+<block name="stainlessSteelBarsCentered">
+	<property name="CustomIcon" value="ironBars"/>
+	<property name="CustomIconTint" value="979797"/>
+	<property name="DisplayType" value="blockHardened"/>
+	<property name="Material" value="MstainlessSteel"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="0"/>
+	<property name="Model" value="iron_bars_centered"/>
+	<property name="Texture" value="191"/>
+	<property name="UseGlobalUV" value="Local"/>
+	<property name="ImposterExcludeAndStop" value="true"/>
+	<property name="Place" value="TowardsPlacer"/>
+	<property name="AllowAllRotations" value="true"/>
+	<property name="Collide" value="movement,melee,rocket"/> <!-- -rocket -->
+	<property class="RepairItems">
+		<property name="resourceForgedSteel" value="10"/> 
+	</property>
+	<property name="DowngradeBlock" value="steelBarsCentered"/>
+	<drop event="Harvest" name="resourceForgedSteel" count="20" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="Group" value="Building,advBuilding"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="DescriptionKey" value="ironBarsDesc"/>
+	<property name="FilterTags" value="fdecor,fother,fwindows,fdoors"/>
+	<property name="SortOrder1" value="7060"/>
+	<property name="SortOrder2" value="0061"/> <!-- SortDoors -->
+</block>
+<block name="stainlessSteelBars">
+	<property name="Extends" value="stainlessSteelBarsCentered"/>
+	<property name="Model" value="iron_bars"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="DowngradeBlock" value="steelBars"/>
+	<property name="SortOrder2" value="0060"/> <!-- SortDoors -->
+</block>
+</append>
+</DrsA18BarsOverhaul>

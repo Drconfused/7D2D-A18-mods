@@ -1,0 +1,20 @@
+<DrsA18StartReworked>
+
+<!-- Add the block for the Drs Trader that can be placed by the player -->
+<append xpath="/blocks">
+<block name="Drs_spawnTrader">
+	<property name="Extends" value="metalTrussingRampOld" param1="DescriptionKey"/>
+	<property name="CustomIcon" value="metalTrussingRampOld"/>
+	<property name="CreativeMode" value="Player"/>
+	<property name="Class" value="SpawnEntity"/>
+	<property name="StabilitySupport" value="false"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Mesh" value="models"/>
+	<property name="Model" value="Entities/Electrical/battery_bankPrefab"/> <property name="HandleFace" value="Bottom"/>
+	<property name="SpawnClass" value="npcTraderJoel,npcTraderRekt,npcTraderHugh,npcTraderBob,npcTraderJen"/>
+	<property name="FilterTags" value="fdesign"/>
+	<property name="Collide" value="sight"/>
+</block>
+</append>
+
+</DrsA18StartReworked>

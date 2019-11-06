@@ -1,0 +1,41 @@
+<DrsPickupCarStuff>
+
+<!-- CAR STUFF -->
+	<append xpath="/blocks/block[contains(@name,'decoCarRadiator')]" >
+		<property name="CanPickup" value="true" param1="resourceRadiator"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarBack')]" >
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarSeat')]" >
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarFender')]" >
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarFrontBumper')]" >
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarFrontDoor')]" >
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarHood')]" >
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarMotor')]" >
+		<property name="CanPickup" value="true" param1="smallEngine"/>
+	</append>
+	<append xpath="/blocks/block[contains(@name,'decoCarTrunk')]" >
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+	</append>
+	<append xpath="/blocks/block[@name='decoCarPartsRamp']" >
+		<property name="Extends" value="decoEntityMetalMaster"/>
+		<property name="CanPickup" value="true"/>
+	</append>
+</DrsPickupCarStuff>

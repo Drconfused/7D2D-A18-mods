@@ -1,0 +1,11 @@
+<DrsA18OilNGas>
+<append xpath="/recipes">
+	<recipe name="Oil_Extractor" count="1" craft_area="workbench" >
+			<ingredient name="generatorbank" count="1"/>
+			<ingredient name="meleeToolAuger" count="1"/>
+			<ingredient name="resourceMechanicalParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="10"/>
+			<ingredient name="resourceMetalPipe" count="5"/>		
+	</recipe>
+</append>
+</DrsA18OilNGas>

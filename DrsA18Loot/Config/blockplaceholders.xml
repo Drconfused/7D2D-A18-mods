@@ -1,0 +1,37 @@
+<DrsA18Loot>
+
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBrownBoxesBase">
+			<block name="palletBrownBoxesBaseLooted" prob=".1"/>
+			<block name="palletBrownBoxesBaseA" prob=".06"/>
+			<block name="palletBrownBoxesBaseB" prob=".28"/>
+			<block name="palletBrownBoxesBaseC" prob=".56"/>
+		</placeholder>
+	</append>
+	
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBrownBoxesTile">
+			<block name="palletBrownBoxesTileLooted" prob=".1"/>
+			<block name="palletBrownBoxesTileA" prob=".06"/>
+			<block name="palletBrownBoxesTileB" prob=".28"/>
+			<block name="palletBrownBoxesTileC" prob=".56"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBrownBoxesTop">
+			<block name="palletBrownBoxesTopLooted" prob=".1"/>
+			<block name="palletBrownBoxesTopA" prob=".06"/>
+			<block name="palletBrownBoxesTopB" prob=".28"/>
+			<block name="palletBrownBoxesTopC" prob=".56"/>
+		</placeholder>
+	</append>
+	<append xpath="/blockplaceholders">
+		<placeholder name="palletBrownBoxesLoose">
+			<block name="palletBrownBoxesLooseLooted" prob=".1"/>
+			<block name="palletBrownBoxesLooseA" prob=".06"/>
+			<block name="palletBrownBoxesLooseB" prob=".28"/>
+			<block name="palletBrownBoxesLooseC" prob=".56"/>
+		</placeholder>
+	</append>
+	
+</DrsA18Loot>

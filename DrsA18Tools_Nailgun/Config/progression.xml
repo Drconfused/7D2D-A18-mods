@@ -1,0 +1,7 @@
+<DrsA18Tools_Nailgun>
+<!-- Quicker Fixer Upper -->
+	<append xpath="/progression/perks/perk[@name='perkAdvancedEngineering']/effect_group">
+		<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="3"
+			tags="Quicker Fixer Upper"/>
+	</append>
+</DrsA18Tools_Nailgun>

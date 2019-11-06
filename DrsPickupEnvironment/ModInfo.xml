@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsA18PickupEnvironment" />
+		<Description value="Be able to pickup the more mundane items you find in the environment." />
+		<Author value="Drconfused" />
+		<Version value="0.04" />
+		<Website value="https://www.nexusmods.com/7daystodie/mods/442" />
+	</ModInfo>
+</xml>

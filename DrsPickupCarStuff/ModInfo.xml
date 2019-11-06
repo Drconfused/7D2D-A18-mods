@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsPickupCarStuff" />
+		<Description value="Be able to pickup car parts(if you want tires get my DrsPickupEnvironment mod)." />
+		<Author value="Drconfused" />
+		<Version value="0.03" />
+		<Website value="" />
+	</ModInfo>
+</xml>

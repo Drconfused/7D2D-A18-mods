@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsA18MiningBoostingMods" />
+		<Description value="Add these helmet and glove mods to gain experience when using mining tools and mining." />
+		<Author value="Drconfused" />
+		<Version value="0.01" />
+		<Website value="" />
+	</ModInfo>
+</xml>

@@ -1,0 +1,47 @@
+<DrsA18MiningBoostingMods>
+<append xpath="/recipes">
+	<recipe name="modGlovesOfMiningExp1" counts="1" craft_area="workbench">
+		<ingredient name="armorLeatherGloves" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceSilverNugget" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+	<recipe name="modGlovesOfMiningExp2" counts="1" craft_area="workbench">
+		<ingredient name="modGlovesOfMiningExp1" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceGoldNugget" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+	<recipe name="modGlovesOfMiningExp3" counts="1" craft_area="workbench">
+		<ingredient name="modGlovesOfMiningExp2" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceRawDiamond" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+
+	<recipe name="modHelmOfMiningExp1" counts="1" craft_area="workbench">
+		<ingredient name="armorMiningHelmet" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceSilverNugget" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+	<recipe name="modHelmOfMiningExp2" counts="1" craft_area="workbench">
+		<ingredient name="modHelmOfMiningExp1" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceGoldNugget" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+	<recipe name="modHelmOfMiningExp3" counts="1" craft_area="workbench">
+		<ingredient name="modHelmOfMiningExp2" count="1"/>
+		<ingredient name="resourceCloth" count="5"/>
+		<ingredient name="resourceScrapPolymers" count="4"/>
+		<ingredient name="resourceRawDiamond" count="2"/>
+		<ingredient name="resourceSewingKit" count="1"/>
+	</recipe>
+</append>
+</DrsA18MiningBoostingMods>

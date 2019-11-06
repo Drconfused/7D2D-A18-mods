@@ -1,0 +1,81 @@
+<DrsA18Loot>
+
+<append xpath="/blocks">
+	<block name="palletBrownBoxesBaseA">
+			<property name="Extends" value="palletBrownBoxesBase"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionA"/>
+			<drop event="Destroy" name="lootBoxConstructionA" count="1"/>
+		</block>
+		<block name="palletBrownBoxesBaseB">
+			<property name="Extends" value="palletBrownBoxesBase"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionB"/>
+			<drop event="Destroy" name="lootBoxConstructionB" count="1"/>
+		</block>
+		<block name="palletBrownBoxesBaseC">
+			<property name="Extends" value="palletBrownBoxesBase"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionC"/>
+			<drop event="Destroy" name="lootBoxConstructionC" count="1"/>
+		</block>
+		<block name="palletBrownBoxesBaseLooted">
+			<property name="Extends" value="palletBrownBoxesBase"/>
+		</block>
+
+	<block name="palletBrownBoxesTileA">
+			<property name="Extends" value="palletBrownBoxesTile"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionA"/>
+			<drop event="Destroy" name="lootBoxConstructionA" count="1"/>
+		</block>
+		<block name="palletBrownBoxesTileB">
+			<property name="Extends" value="palletBrownBoxesTile"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionB"/>
+			<drop event="Destroy" name="lootBoxConstructionB" count="1"/>
+		</block>
+		<block name="palletBrownBoxesTileC">
+			<property name="Extends" value="palletBrownBoxesTile"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionC"/>
+			<drop event="Destroy" name="lootBoxConstructionC" count="1"/>
+		</block>
+		<block name="palletBrownBoxesTileLooted">
+			<property name="Extends" value="palletBrownBoxesTile"/>
+		</block>	
+	
+	<block name="palletBrownBoxesTopA">
+			<property name="Extends" value="palletBrownBoxesTop"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionA"/>
+			<drop event="Destroy" name="lootBoxConstructionA" count="1"/>
+		</block>
+		<block name="palletBrownBoxesTopB">
+				<property name="Extends" value="palletBrownBoxesTop"/>
+				<property name="CanPickup" value="true" param1="lootBoxConstructionB"/>
+				<drop event="Destroy" name="lootBoxConstructionB" count="1"/>
+			</block>
+		<block name="palletBrownBoxesTopC">
+			<property name="Extends" value="palletBrownBoxesTop"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionC"/>
+			<drop event="Destroy" name="lootBoxConstructionC" count="1"/>
+		</block>
+		<block name="palletBrownBoxesTopLooted">
+			<property name="Extends" value="palletBrownBoxesTop"/>
+		</block>
+		
+	<block name="palletBrownBoxesLooseA">
+			<property name="Extends" value="palletBrownBoxesLoose"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionA"/>
+			<drop event="Destroy" name="lootBoxConstructionA" count="1"/>
+		</block>
+		<block name="palletBrownBoxesLooseB">
+			<property name="Extends" value="palletBrownBoxesLoose"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionB"/>
+			<drop event="Destroy" name="lootBoxConstructionB" count="1"/>
+		</block>
+		<block name="palletBrownBoxesLooseC">
+			<property name="Extends" value="palletBrownBoxesLoose"/>
+			<property name="CanPickup" value="true" param1="lootBoxConstructionC"/>
+			<drop event="Destroy" name="lootBoxConstructionC" count="1"/>
+		</block>
+		<block name="palletBrownBoxesLooseLooted">
+			<property name="Extends" value="palletBrownBoxesLoose"/>
+		</block>
+</append>
+
+</DrsA18Loot>

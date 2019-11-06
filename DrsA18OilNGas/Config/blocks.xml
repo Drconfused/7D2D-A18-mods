@@ -1,0 +1,84 @@
+<DrsA18OilNGas>
+<!-- ~~~~~~~~~~~~~~~~~~~~~~~~~Oil Extractor~~~~~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<append xpath="/blocks">
+
+<block name="Oil_Extractor">
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="Ext3dModel"/> <property name="Texture" value="293"/>
+	<property name="Mesh" value="models"/>
+	<property name="Path" value="solid"/>
+	<property name="Model" value="Industrial/control_panel_base_01" param1="main_mesh"/>
+	<property name="Place" value="TowardsPlacerInverted"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="2"/>
+	<property name="CustomIcon" value="controlPanelBase01" />
+	<property class="RepairItems">
+		<property name="resourceForgedIron" value="10"/>
+	</property>
+	
+	<property name="Class" value="PlantGrowing"/>
+	<property name="PlantGrowing.FertileLevel" value="0"/>
+	<property name="PlantGrowing.Next" value="Oil_Extractor"/>
+	<property name="PlantGrowing.GrowthRate" value="30"/>
+	<property name="PlantGrowing.IsRandom" value="false"/>
+	<property name="PlantGrowing.LightLevelStay" value="0"/>
+	<property name="PlantGrowing.GrowOnTop" value="Oil_Loot_Here"/>
+	<property name="PlantGrowing.IsGrowOnTopEnabled" value="true"/>
+	<property name="FilterTags" value="fterrain"/>
+		<drop event="Destroy" count="0"/>
+</block>
+<block name="Oil_Loot_Here">
+		<property name="CustomIcon" value="burningBarrelPlayer" />
+		<property name="Class" value="Loot" />
+		<property name="Material" value="Mmetal_thin"/>
+		<property name="Path" value="solid"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Lighting/barrel03_burning_playerPrefab"/>
+		<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="156"/> 
+		<property name="Weight" value="216" />
+		<property name="Collide" value="movement,rockets,sight,melee" />		
+		<property name="Stacknumber" value="1"/>
+		<property name="BuffsWhenWalkedOn" value="buffBurningMolotov"/>
+		<property name="HeatMapStrength" value="4.05"/>
+		<property name="HeatMapTime" value="1200"/>
+		<property name="HeatMapFrequency" value="15"/>
+		<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>		
+		<property name="LootList" value="225" />
+			<drop event="Destroy" count="0"/>
+			<drop event="Harvest" count="0"/>
+</block>
+<!-- Old files to maintain compatability with existing games with mod in it. -->
+	<block name="Oil Extractor">
+		<property name="Class" value="UpgradeRated" />
+		<property name="Material" value="Mmetal"/>
+		<property name="Model" value="Entities/Industrial/barrelGasPrefab"/>
+		<property name="Shape" value="ModelEntity"/>
+		<!--<property name="Texture" value="346,345,341,345,262,345" />-->
+		<property name="Weight" value="216" />
+		<property name="Collide" value="movement,rockets,sight,melee" />
+		<property name="UpgradeRated.ToBlock" value="OilShaleHere" />
+		<property name="UpgradeRated.Rate" value="30" />
+		<property name="CustomIcon" value="cntBarrelGasSingle00" />
+	</block>
+	<block name="OilShaleHere">
+		<property name="CustomIcon" value="burningBarrelPlayer" />
+		<property name="Class" value="Loot" />
+		<property name="Material" value="Mmetal_thin"/>
+		<property name="Path" value="solid"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Lighting/barrel03_burning_playerPrefab"/>
+		<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="156"/> 
+		<property name="Weight" value="216" />
+		<property name="Collide" value="movement,rockets,sight,melee" />		
+		<property name="Stacknumber" value="1"/>
+		<property name="BuffsWhenWalkedOn" value="buffBurningMolotov"/>
+		<property name="HeatMapStrength" value="4.05"/>
+		<property name="HeatMapTime" value="1200"/>
+		<property name="HeatMapFrequency" value="15"/>
+		<property name="ActiveRadiusEffects" value="buffCampfireAOE(3)"/>		
+		<property name="LootList" value="225" />
+		<drop event="Destroy" count="0"/>
+		<drop event="Harvest" count="0"/>
+		<property name="DowngradeBlock" value="Oil Extractor"/> 
+	</block> 
+</append>
+</DrsA18OilNGas>

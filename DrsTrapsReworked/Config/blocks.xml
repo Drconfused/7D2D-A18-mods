@@ -1,0 +1,101 @@
+<DrsTrapsReworked>
+
+<append xpath="/blocks/block[@name='woodLogSpike1']" >
+	<property name="CreativeMode" value="Player"/>
+	<property name="CanPickup" value="true"/>
+</append>
+
+<append xpath="/blocks/block[@name='scrapIronLogSpike4']" >
+	<property name="CreativeMode" value="Player"/>
+	<property name="CanPickup" value="true"/>
+</append>
+
+<!--<append xpath="/blocks/block[@name='flamethrowerTrap']" >
+	<property name="CreativeMode" value="Player"/>
+</append>-->
+
+<append xpath="/blocks/block[@name='burningBarrelPlayer']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="burningBarrelPlayer_Molotov"/>
+			<property name="Item" value="ammoGasCan"/>
+			<property name="ItemCount" value="20"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+</append>
+<append xpath="/blocks/block[@name='bladeTrap']" >
+		<property class="UpgradeBlock">
+			<property name="ToBlock" value="bladeTrap_Reinforced"/>
+			<property name="Item" value="modMeleeSerratedBlade"/>
+			<property name="ItemCount" value="3"/>
+			<property name="UpgradeHitCount" value="4"/>
+		</property>
+</append>
+<append xpath="/blocks">
+	<block name="burningBarrelPlayer_Molotov">
+		<property name="Extends" value="corrugatedMetalNoUpgradeMaster" param1="SortOrder1,SortOrder2"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="CanPickup" value="true"/>
+		<property name="Path" value="solid"/>
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Model" value="Entities/Lighting/barrel03_burning_playerPrefab"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="ImposterExchange" value="imposterDontBlockCTRQuarter" param1="156"/>
+		<property name="ImposterDontBlock" value="true"/>
+		<property name="Stacknumber" value="50"/>
+		<property name="BuffsWhenWalkedOn" value="buffBurningMolotov"/>
+		<property name="Class" value="UpgradeRated"/>
+			<property name="UpgradeRated.ToBlock" value="burningBarrelPlayer"/>
+			<property name="UpgradeRated.Rate" value="30"/>
+		<property name="HeatMapStrength" value="3"/>
+		<property name="HeatMapTime" value="600"/>
+		<property name="HeatMapFrequency" value="1"/><!--once per minute it adds heat map strength -->
+		<property name="Group" value="Building,advBuilding"/>
+		<property name="DescriptionKey" value="torchPlayerGroupDesc"/>
+		<property name="SortOrder1" value="70a0"/>
+		<property name="FilterTags" value="fdecor,felectrical"/>
+	</block>
+
+	<block name="bladeTrap_Reinforced">
+		<property name="CreativeMode" value="Player"/>
+		<property name="CustomIcon" value="bladeTrap"/>
+		<property name="Class" value="BladeTrap"/>
+		<property name="Material" value="Mmetal_hard"/>
+		<property name="Damage" value="25"/>
+		<property name="DamageReceived" value="4"/>
+		<property name="BreakingPercentage" value="0.5"/>
+		<property name="BrokenPercentage" value="0.25"/>
+		<property name="ImpactSound" value="bladetrap_impact"/>
+		<property name="StartSound" value="bladetrap_startup"/>
+		<property name="StopSound" value="bladetrap_stop"/>
+		<property name="RunningSound" value="bladetrap_fire_lp"/>
+		<property name="RunningSoundBreaking" value="bladetrap_dm1_lp"/>
+		<property name="RunningSoundBroken" value="bladetrap_dm2_lp"/>
+		<property name="MaxDamage" value="4000"/>
+		<property name="StabilitySupport" value="false"/> <!-- build restriction -->
+		<property name="Shape" value="ModelEntity"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="Model" value="Entities/Electrical/trap_spinning_bladePrefab"/> <property name="HandleFace" value="Bottom"/>
+		<property name="MultiBlockDim" value="3,1,3"/><property name="DisplayType" value="blockElectricalHardenedMulti"/>
+		<property name="ImposterExchange" value="imposterPlate" param1="111"/>
+		<property name="IsTerrainDecoration" value="true"/>
+		<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+		<property name="RequiredPower" value="20"/>
+		<property name="Group" value="Tools/Traps,Science"/>
+		<property name="ActivationDistance" value="6"/>
+		<property name="DowngradeBlock" value="bladeTrap"/>	
+		<property class="RepairItems">
+			<property name="resourceForgedSteel" value="16"/>
+		</property>
+		<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+		<drop event="Harvest" name="resourceScrapIron" count="20,100" tag="allHarvest"/>
+		<drop event="Destroy" count="0"/>
+		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+		<property name="Stacknumber" value="10"/>
+		<property name="TakeDelay" value="10"/>
+		<property name="EconomicValue" value="444"/>
+		<property name="FilterTags" value="fdecor,felectrical,ftraps"/>
+		<property name="SortOrder1" value="70a0"/>
+	</block>
+</append>
+
+</DrsTrapsReworked>

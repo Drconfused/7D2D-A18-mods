@@ -1,0 +1,368 @@
+<DrsA18MaterialTrader>
+	<!-- Schematic -->
+<append xpath="/items" >
+	<item name="WorkOrderQuestSchematic1">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="Description" value="Enables you to write work orders for various resources and blocks in the amount of 25"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="EconomicValue" value="1"/>
+		<property name="CustomIcon" value="Work_order_25"/>
+		<property name="Unlocks" value="MT1_Cobblestone,MT1_ConcreteMix,MT1_Cement,MT1_resourceForgedIron,MT1_resourceForgedIron,MT1_resourceForgedSteel,MT1_FlagstoneBlock,MT1_rebarFrameBlock"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT1_Cobblestone" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT1_ConcreteMix" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT1_Cement" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT1_resourceForgedIron" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT1_resourceForgedSteel" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT1_FlagstoneBlock" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT1_rebarFrameBlock" operation="set" value="1"/>
+		</effect_group>
+	</item>
+	<item name="WorkOrderQuestSchematic2">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="Description" value="Enables you to write work orders for various resources and blocks in the amount of 100"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="EconomicValue" value="1"/>
+		<property name="CustomIcon" value="Work_order_100"/>
+		<property name="Unlocks" value="MT2_Cobblestone,MT2_ConcreteMix,MT2_Cement,MT2_resourceForgedIron,MT2_resourceForgedIron,MT2_resourceForgedSteel,MT2_FlagstoneBlock,MT2_rebarFrameBlock"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT2_Cobblestone" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT2_ConcreteMix" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT2_Cement" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT2_resourceForgedIron" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT2_resourceForgedSteel" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT2_FlagstoneBlock" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT2_rebarFrameBlock" operation="set" value="1"/>
+		</effect_group>
+	</item>	
+	<item name="WorkOrderQuestSchematic3">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="Description" value="Enables you to write work orders for various resources and blocks in the amount of 500"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="EconomicValue" value="1"/>
+		<property name="CustomIcon" value="Work_order_500"/>
+		<property name="Unlocks" value="MT3_Cobblestone,MT3_ConcreteMix,MT3_Cement,MT3_resourceForgedIron,MT3_resourceForgedIron,MT3_resourceForgedSteel,MT3_FlagstoneBlock,MT3_rebarFrameBlock"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT3_Cobblestone" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT3_ConcreteMix" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT3_Cement" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT3_resourceForgedIron" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT3_resourceForgedSteel" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT3_FlagstoneBlock" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT3_rebarFrameBlock" operation="set" value="1"/>
+		</effect_group>
+	</item>	
+	<item name="WorkOrderQuestSchematic4">
+		<property name="Extends" value="schematicMaster"/>
+		<property name="Description" value="Enables you to write work orders for various resources and blocks in the amount of 1000"/>
+		<property name="CreativeMode" value="Player"/>
+		<property name="EconomicValue" value="1"/>
+		<property name="CustomIcon" value="Work_order_1000"/>
+		<property name="Unlocks" value="MT4_Cobblestone,MT4_ConcreteMix,MT4_Cement,MT4_resourceForgedIron,MT4_resourceForgedIron,MT4_resourceForgedSteel,MT4_FlagstoneBlock,MT4_rebarFrameBlock"/>
+		<effect_group tiered="false">
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT4_Cobblestone" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT4_ConcreteMix" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT4_Cement" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT4_resourceForgedIron" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT4_resourceForgedSteel" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT4_FlagstoneBlock" operation="set" value="1"/>
+			<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="MT4_rebarFrameBlock" operation="set" value="1"/>
+		</effect_group>
+	</item>
+</append>
+
+	<!-- Materials -->
+<append xpath="/items" >
+	<item name="MT1_Cobblestone">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT1_CobblestoneDesc" />
+		<property name="CustomIcon" value="MT_Cobblestone25"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic1"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader1_Cobblestone" />
+		</property>
+	</item>
+	<item name="MT2_Cobblestone">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT2_CobblestoneDesc" />
+		<property name="CustomIcon" value="MT_Cobblestone100"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic2"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader2_Cobblestone" />
+		</property>
+	</item>
+	<item name="MT3_Cobblestone">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT3_CobblestoneDesc" />
+		<property name="CustomIcon" value="MT_Cobblestone500"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic3"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader3_Cobblestone" />
+		</property>
+	</item>
+	<item name="MT4_Cobblestone">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT4_CobblestoneDesc" />
+		<property name="CustomIcon" value="MT_Cobblestone1000"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic4"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader4_Cobblestone" />
+		</property>
+	</item>
+
+	<item name="MT1_ConcreteMix">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT1_ConcreteMixDesc" />
+		<property name="CustomIcon" value="MT_ConcreteMix25"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic1"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader1_ConcreteMix" />
+		</property>
+	</item>
+	<item name="MT2_ConcreteMix">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT2_ConcreteMixDesc" />
+		<property name="CustomIcon" value="MT_ConcreteMix100"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic2"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader2_ConcreteMix" />
+		</property>
+	</item>
+	<item name="MT3_ConcreteMix">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT3_ConcreteMixDesc" />
+		<property name="CustomIcon" value="MT_ConcreteMix500"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic3"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader3_ConcreteMix" />
+		</property>
+	</item>
+	<item name="MT4_ConcreteMix">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT4_ConcreteMixDesc" />
+		<property name="CustomIcon" value="MT_ConcreteMix1000"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic4"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader4_ConcreteMix" />
+		</property>
+	</item>
+
+	<item name="MT1_Cement">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT1_CementDesc" />
+		<property name="CustomIcon" value="MT_Cement25"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic1"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader1_Cement" />
+		</property>
+	</item>
+	<item name="MT2_Cement">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT2_CementDesc" />
+		<property name="CustomIcon" value="MT_Cement100"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic2"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader2_Cement" />
+		</property>
+	</item>
+	<item name="MT3_Cement">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT3_CementDesc" />
+		<property name="CustomIcon" value="MT_Cement500"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic3"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader3_Cement" />
+		</property>
+	</item>
+	<item name="MT4_Cement">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT4_CementDesc" />
+		<property name="CustomIcon" value="MT_Cement1000"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic4"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader4_Cement" />
+		</property>
+	</item>
+
+	<item name="MT1_resourceForgedIron">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT1_resourceForgedIronDesc" />
+		<property name="CustomIcon" value="MT_resourceForgedIron25"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic1"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader1_resourceForgedIron" />
+		</property>
+	</item>
+	<item name="MT2_resourceForgedIron">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT2_resourceForgedIronDesc" />
+		<property name="CustomIcon" value="MT_resourceForgedIron100"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic2"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader2_resourceForgedIron" />
+		</property>
+	</item>
+	<item name="MT3_resourceForgedIron">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT3_resourceForgedIronDesc" />
+		<property name="CustomIcon" value="MT_resourceForgedIron500"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic3"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader3_resourceForgedIron" />
+		</property>
+	</item>
+	<item name="MT4_resourceForgedIron">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT4_resourceForgedIronDesc" />
+		<property name="CustomIcon" value="MT_resourceForgedIron1000"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic4"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader4_resourceForgedIron" />
+		</property>
+	</item>
+
+	<item name="MT1_resourceForgedSteel">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT1_resourceForgedSteelDesc" />
+		<property name="CustomIcon" value="MT_resourceForgedSteel25"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic1"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader1_resourceForgedSteel" />
+		</property>
+	</item>
+	<item name="MT2_resourceForgedSteel">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT2_resourceForgedSteelDesc" />
+		<property name="CustomIcon" value="MT_resourceForgedSteel100"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic2"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader2_resourceForgedSteel" />
+		</property>
+	</item>
+	<item name="MT3_resourceForgedSteel">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT3_resourceForgedSteelDesc" />
+		<property name="CustomIcon" value="MT_resourceForgedSteel500"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic3"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader3_resourceForgedSteel" />
+		</property>
+	</item>
+	<item name="MT4_resourceForgedSteel">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT4_resourceForgedSteelDesc" />
+		<property name="CustomIcon" value="MT_resourceForgedSteel1000"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic4"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader4_resourceForgedSteel" />
+		</property>
+	</item>
+</append>
+
+	<!-- Blocks -->
+<append xpath="/items" >
+	<item name="MT1_FlagstoneBlock">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT1_FlagstoneBlockDesc" />
+		<property name="CustomIcon" value="MT_FlagstoneBlock25"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic1"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader1_FlagstoneBlock" />
+		</property>
+	</item>
+	<item name="MT2_FlagstoneBlock">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT2_FlagstoneBlockDesc" />
+		<property name="CustomIcon" value="MT_FlagstoneBlock100"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic2"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader2_FlagstoneBlock" />
+		</property>
+	</item>
+	<item name="MT3_FlagstoneBlock">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT3_FlagstoneBlockDesc" />
+		<property name="CustomIcon" value="MT_FlagstoneBlock500"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic3"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader3_FlagstoneBlock" />
+		</property>
+	</item>
+	<item name="MT4_FlagstoneBlock">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT4_FlagstoneBlockDesc" />
+		<property name="CustomIcon" value="MT_FlagstoneBlock1000"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic4"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader4_FlagstoneBlock" />
+		</property>
+	</item>
+
+	<item name="MT1_rebarFrameBlock">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT1_rebarFrameBlockDesc" />
+		<property name="CustomIcon" value="MT_rebarFrameBlock25"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic1"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader1_rebarFrameBlock" />
+		</property>
+	</item>
+	<item name="MT2_rebarFrameBlock">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT2_rebarFrameBlockDesc" />
+		<property name="CustomIcon" value="MT_rebarFrameBlock100"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic2"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader2_rebarFrameBlock" />
+		</property>
+	</item>
+	<item name="MT3_rebarFrameBlock">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT3_rebarFrameBlockDesc" />
+		<property name="CustomIcon" value="MT_rebarFrameBlock500"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic3"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader3_rebarFrameBlock" />
+		</property>
+	</item>
+	<item name="MT4_rebarFrameBlock">
+		<property name="Extends" value="questMaster" />
+		<property name="CreativeMode" value="Player"/>
+		<property name="Description" value="MT4_rebarFrameBlockDesc" />
+		<property name="CustomIcon" value="MT_rebarFrameBlock1000"/>
+		<property name="UnlockedBy" value="WorkOrderQuestSchematic4"/>
+		<property class="Action0">
+			<property name="QuestGiven" value="quest_MaterialTrader4_rebarFrameBlock" />
+		</property>
+	</item>
+</append>
+
+
+</DrsA18MaterialTrader>

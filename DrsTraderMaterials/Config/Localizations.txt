@@ -1,0 +1,9 @@
+Key,Source,Context,Changes,English
+WorkOrderQuestSchematic1,items,Item,New,Work Order 25
+WorkOrderQuestSchematic1Desc,items,Item,New,"Write work orders for various resources and blocks in the amount of 25."
+WorkOrderQuestSchematic2,items,Item,New,Work Order 100
+WorkOrderQuestSchematic2Desc,items,Item,New,"Write work orders for various resources and blocks in the amount of 100."
+WorkOrderQuestSchematic3,items,Item,New,Work Order 500
+WorkOrderQuestSchematic3Desc,items,Item,New,"Write work orders for various resources and blocks in the amount of 500."
+WorkOrderQuestSchematic4,items,Item,New,Work Order 1000
+WorkOrderQuestSchematic4Desc,items,Item,New,"Write work orders for various resources and blocks in the amount of 1000."

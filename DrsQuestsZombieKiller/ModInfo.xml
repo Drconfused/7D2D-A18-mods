@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsQuestsZombieKiller" />
+		<Description value="Killing 100 Zombies now gives a token that can be traded for loot boxes at the trader." />
+		<Author value="Drconfused" />
+		<Version value="0.01" />
+		<Website value="" />
+	</ModInfo>
+</xml>

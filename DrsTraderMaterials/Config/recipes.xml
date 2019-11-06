@@ -1,0 +1,118 @@
+<DrsA18MaterialTrader>
+	<!-- Blocks -->
+<append xpath="/recipes">
+	<recipe name="MT1_Cobblestone" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT2_Cobblestone" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT3_Cobblestone" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT4_Cobblestone" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+
+	<recipe name="MT1_ConcreteMix" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT2_ConcreteMix" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT3_ConcreteMix" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT4_ConcreteMix" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+
+	<recipe name="MT1_Cement" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT2_Cement" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT3_Cement" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT4_Cement" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+
+	<recipe name="MT1_resourceForgedIron" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT2_resourceForgedIron" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT3_resourceForgedIron" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT4_resourceForgedIron" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+
+	<recipe name="MT1_resourceForgedSteel" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT2_resourceForgedSteel" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT3_resourceForgedSteel" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT4_resourceForgedSteel" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+</append>
+
+	<!-- Blocks -->
+<append xpath="/recipes">	
+	<recipe name="MT1_FlagstoneBlock" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT2_FlagstoneBlock" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT3_FlagstoneBlock" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT4_FlagstoneBlock" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+
+	<recipe name="MT1_rebarFrameBlock" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT2_rebarFrameBlock" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT3_rebarFrameBlock" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="MT4_rebarFrameBlock" count="1" tags="learnable" >
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+</append>
+	
+	<!-- Work Order Books to unlock recipes -->
+<append xpath="/recipes">
+	<recipe name="WorkOrderQuestSchematic1" count="1" >
+		<ingredient name="resourcePaper" count="1"/>
+		<ingredient name="casinoCoin" count="10"/>
+	</recipe>
+	<recipe name="WorkOrderQuestSchematic2" count="1" >
+		<ingredient name="resourcePaper" count="1"/>
+		<ingredient name="casinoCoin" count="100"/>
+	</recipe>
+	<recipe name="WorkOrderQuestSchematic3" count="1" >
+		<ingredient name="resourcePaper" count="1"/>
+		<ingredient name="casinoCoin" count="1000"/>
+	</recipe>
+	<recipe name="WorkOrderQuestSchematic4" count="1" >
+		<ingredient name="resourcePaper" count="1"/>
+		<ingredient name="casinoCoin" count="10000"/>
+	</recipe>
+</append>
+</DrsA18MaterialTrader>

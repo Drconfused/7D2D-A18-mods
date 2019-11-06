@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsA18TraderMaterials" />
+		<Description value="Able to trade materials for specific related products at the trader using the quest system." />
+		<Author value="Drconfused" />
+		<Version value="0.02" />
+		<Website value="" />
+	</ModInfo>
+</xml>

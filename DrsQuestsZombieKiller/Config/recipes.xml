@@ -1,0 +1,31 @@
+<DrsQuestsZombieKiller>
+<append xpath="/recipes">
+	<recipe name="Paper_Milestone_Zombie_Kill_100" count="1">
+		<ingredient name="resourcePaper" count="1"/>
+	</recipe>
+	<recipe name="QuestChit1" count="1">
+		<ingredient name="Quest_Chit" count="1"/>
+	</recipe>
+	<recipe name="QuestChit5" count="1">
+		<ingredient name="Quest_Chit" count="5"/>
+	</recipe>
+	<recipe name="QuestChit10" count="1">
+		<ingredient name="Quest_Chit" count="10"/>
+	</recipe>
+	<recipe name="QuestChit50" count="1">
+		<ingredient name="Quest_Chit" count="50"/>
+	</recipe>
+	<recipe name="QuestChit100" count="1">
+		<ingredient name="Quest_Chit" count="100"/>
+	</recipe>
+	<recipe name="QuestChit500" count="1">
+		<ingredient name="Quest_Chit" count="500"/>
+	</recipe>
+	<recipe name="QuestChit1000" count="1">
+		<ingredient name="Quest_Chit" count="1000"/>
+	</recipe>	
+	<recipe name="QuestChit5000" count="1">
+		<ingredient name="Quest_Chit" count="5000"/>
+	</recipe>
+</append>
+</DrsQuestsZombieKiller>

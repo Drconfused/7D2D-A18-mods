@@ -1,0 +1,34 @@
+<DrsTrapsReworked>
+<append xpath="/recipes">
+
+<recipe name="barbedWireSheet" count="1">
+	<ingredient name="resourceScrapIron" count="20"/>
+</recipe>
+
+<recipe name="woodLogSpike1" count="1">
+	<ingredient name="resourceWood" count="15"/>
+</recipe>
+
+<recipe name="scrapIronLogSpike4" count="1">
+	<ingredient name="resourceScrapIron" count="45"/>
+</recipe>
+
+<recipe name="trapSpikesNew" count="1">
+	<ingredient name="resourceWood" count="15"/>
+</recipe>
+
+<recipe name="bladeTrap_Reinforced" count="1">
+	<ingredient name="resourceForgedSteel" count="15"/>
+	<ingredient name="modMeleeSerratedBlade" count="3"/>
+	<ingredient name="bladeTrap" count="1"/>
+</recipe>
+
+<!-- Not working properly yet.
+<recipe name="flamethrowerTrap" count="1" craft_area="workbench" tags="workbenchCrafting">
+	<ingredient name="resourceForgedIron" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="6"/>
+	<ingredient name="resourceElectricParts" count="4"/>
+	<ingredient name="resourceOil" count="5"/>
+</recipe>-->
+</append>
+</DrsTrapsReworked>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="DrsTrapsReworked" />
+		<Description value="Makes traps able to be picked up and the traps that are in the game but no recipe able to be crafted." />
+		<Author value="Drconfused" />
+		<Version value="0.01" />
+		<Website value="" />
+	</ModInfo>
+</xml>
